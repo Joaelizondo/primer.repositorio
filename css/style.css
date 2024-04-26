@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "merriweather";
+}
+
+/* header */
+
+header{
+    border-bottom: 1px solid gray;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar{
+    background-color: #504a5f;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+/* index */
+
+.bienvenida{
+    min-height: 100vh;
+    background-image: url(/assets/fondoinicio.png) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bienvenida__titulo{
+    font-size: 40px;
+    padding: 40px;
+    color: rgb(237, 237, 237);
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.bienvenida__texto1{
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(237, 237, 237);
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.bienvenida__texto2{
+    display: none;
+}
+
+.explicacion{
+    border-bottom: 1px solid black;
+    background-color: #504a5f;
+}
+
+.explicacion__titulo{
+    font-size: 40px;
+    padding: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.explicacion__parrafo{
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.servicios__titulo{
+    font-size: 80px;
+    padding: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    text-align: center;
+    color: #504a5f;
+}
+
+.titulo-card{
+    font-family: "Great Vibes";
+    font-size: 40px;
+    margin-top: 10px;
+    color: #504a5f;
+}
+
+.boton-main{
+    display: inline-block;
+    background-color: #504a5f;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.boton-main:hover {
+    background-color: #69627d;
+}
+
+.enlace-boton{
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+
+/* reiki */
+
+.contenedor__imagen{
+    background-image: url(../assets/reikiprincipal2.png);
+    min-height: 120vh;
+}
+
+.contenedor__imagen__titulo{
+    font-family: "Great Vibes";
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reiki__explicacion{
+    background-color: #504a5f;
+    text-align: center;
+}
+
+.reiki__explicacion__parrafo{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container__titulo{
+    color: #504a5f;
+    text-align: center;
+    font-family: "Great Vibes";
+    font-size: 50px;
+}
+
+.form-label{
+    color: #504a5f;
+}
+
+.boton-main2 {
+    color: rgb(255, 255, 255);
+    background-color: #504a5f;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    
+}
+
+/* footer */
+
+footer {
+    border-top: 1px solid black;
+    background-color: #504a5f;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-redes .img-redes {
+    width: 30px;
+    margin: 0 10px; 
+}
+
+.parrafo-footer {
+    margin-top: 10px; 
+    font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .bienvenida{
+        min-height: 100vh;
+        background-image: url(/assets/fondoiniciotab.png) ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .bienvenida__titulo{
+        font-size: 70px;
+        padding: 40px;
+        color: rgb(255, 255, 255);
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+
+    .bienvenida__texto1 {
+        display: none;
+    }
+
+    .bienvenida__texto2{
+        display: block;
+        font-size: 15px;
+        padding: 10px;
+        color: rgb(237, 237, 237);
+        font-family: "merriweather", cursive;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+    .explicacion__titulo{
+        font-size: 70px;
+        padding: 40px;
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+    .titulo-card{
+        font-family: "Great Vibes";
+        font-size: 33px;
+        margin-top: 10px;
+        color: #504a5f;
+    }
+    .parrafo-footer {
+        margin-top: 10px; 
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bienvenida{
+        min-height: 100vh;
+        background-image: url(/assets/fondoiniciodek.png) ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .bienvenida__titulo{
+        font-size: 100px;
+        padding: 40px;
+        color: rgb(237, 237, 237);
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+    .bienvenida__texto2{
+        display: block;
+        font-size: 20px;
+        padding: 10px;
+        color: rgb(237, 237, 237);
+        font-family: "merriweather", cursive;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+    .explicacion__titulo{
+        font-size: 100px;
+        padding: 40px;
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+    .explicacion__parrafo{
+
+        font-size: 20px;
+        color: white;
+        padding-bottom: 80px;
+
+    }
+}
